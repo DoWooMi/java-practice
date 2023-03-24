@@ -1,0 +1,49 @@
+package xyz.itwill.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import xyz.itwill.dto.Group4DTO;
+
+public class Group4DAO extends JdbcDAO {
+	private static Group4DAO _dao;
+	
+	public Group4DAO() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	static {
+		_dao=new Group4DAO();
+	}
+
+	public static Group4DAO getDao() {
+		return _dao;
+	}
+	
+	public int insertGroup4(Group4DTO group4) {
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		int rows=0;
+		try {
+			con=getConnection();
+			String sql="insert into Group4 values(?,?,?)";
+			pstmt=con.prepareStatement(sql);
+			pstmt.setInt(1, group4.getNo());
+			pstmt.setString(2, group4.getName());
+			pstmt.setString(3, group4.getAddress());
+			
+			rows=pstmt.executeUpdate();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			close(con, pstmt);
+		}
+		return rows;
+	}
+	
+	
+	
+}

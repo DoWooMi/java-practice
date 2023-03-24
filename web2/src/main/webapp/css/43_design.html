@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background: gray;
+}
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+#logo img {
+	width: 100%;
+	margin-top: 150px;
+}
+@media screen and (max-width:360px){
+	body {
+		background: orange;
+	}
+}
+@media screen and (min-width:361px) and (max-width:768px){
+	body {
+		background: yellow;
+	}
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+	body {
+		background: olive;
+	}
+}
+
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<h1>반응형 웹디자인</h1>
+		<hr>
+		<p>장치 또는 해상도에 따라 다른 스타일의 페이지를 제공</p>
+		<hr>
+		<div id="logo">
+			<img alt="로고" src="images/logo.png">
+		</div>
+	</div>
+</body>
+</html>

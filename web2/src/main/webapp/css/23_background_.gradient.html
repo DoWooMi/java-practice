@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div {
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 20px;
+}
+.grad1 {
+	background: linear-gradient(45deg, red, white);
+	background: linear-gradient(135deg, blue, white);
+	background: linear-gradient(to bottom, green, white);
+	background: linear-gradient(225deg, olive, white 30%, olive);
+
+ }
+ .grad2 {
+	background: -webkit-radial-gradient(70% 70%, white , blue);
+	background: radial-gradient(ellipse, white ,orange, red);
+ 	
+ }
+</style>
+</head>
+<body>
+	<h1>배경관련스타일</h1>
+	<hr>
+	<div class="grad1"></div>
+	<div class="grad2"></div>
+</body>
+</html>

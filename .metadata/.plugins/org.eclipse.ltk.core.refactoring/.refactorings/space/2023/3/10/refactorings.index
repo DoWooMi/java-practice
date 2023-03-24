@@ -1,0 +1,19 @@
+1678259404320	Rename resource 'MemberFaqMapper.xml'
+1678262901697	Delete element
+1678266530988	Delete element
+1678268484470	Rename type 'LoginAuthInterceptor'
+1678274209264	Rename type 'AdminFaqDAO'
+1678274220206	Rename type 'AdminFaqDAOImpl'
+1678274244279	Rename type 'AdminFaqMapper'
+1678274255893	Rename resource 'AdminFaqMapper.xml'
+1678274282280	Rename type 'AdminFaqService'
+1678274290200	Rename type 'AdminFaqServiceImpl'
+1678324507105	Delete elements
+1678329227390	Rename resource 'admin_faq_add.jsp'
+1678329254050	Rename resource 'faq_write.jsp'
+1678352139803	Move file
+1678356363085	Delete element
+1678363063203	Rename resource 'admin_faq.jsp'
+1678363071003	Rename resource 'admin_faq2.jsp'
+1678417893633	Rename resource 'admin_faq.jsp'
+1678417900461	Rename resource 'admin_faqajax.jsp'

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="C:\java\apache-tomcat-9.0.68\webapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="false" timestamp="72">
+    <list key="modules" value0="web2::org.eclipse.jst.jee.server:web2::jst.web::4.0" value1="servlet::org.eclipse.jst.jee.server:servlet::jst.web::4.0" value10="space::org.eclipse.jst.jee.server:space::jst.web::4.0" value2="jsp::org.eclipse.jst.jee.server:jsp::jst.web::4.0" value3="test2::org.eclipse.jst.jee.server:test2::jst.web::4.0" value4="ajax::org.eclipse.jst.jee.server:ajax::jst.web::4.0" value5="project4::org.eclipse.jst.jee.server:project4::jst.web::4.0" value6="mvc::org.eclipse.jst.jee.server:mvc::jst.web::4.0" value7="mybatis::org.eclipse.jst.jee.server:mybatis::jst.web::4.0" value8="spring::org.eclipse.jst.jee.server:spring::jst.web::4.0" value9="apractice::org.eclipse.jst.jee.server:apractice::jst.web::4.0"/>
+  </server>
+</servers>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- annotation-driven : @Controller 어노테이션을 사용하여 요청 처리 클래스를 Spring Bean으로
+	등록하고 @RequestMapping 어노테이션을 사용하여 작성된 메소드를 요청 처리 메소드로 등록하여
+	클라이언트 요청에 의해 요청 처리 클래스의 메소드가 호출되어 처리되도록 설정하는 엘리먼트 -->
+	<annotation-driven />
+
+	<!-- resources : 클라이언트 요청을 Front Controller가 직접 응답 처리되도록 설정하는 엘리먼트 -->
+	<!-- location 속성 : 클라이언트 요청에 의해 리소스 파일을 검색하기 위한 폴더를 속성값으로 설정 -->
+	<resources mapping="/images/**" location="/resources/images/" />
+	<resources mapping="/css/**" location="/resources/css/" />
+
+	<!-- InternalResourceViewResolver 클래스를 Spring Bean으로 등록 -->
+	<!-- InternalResourceViewResolver 객체 : 클라이언트 요청에 의해 호출되는 요청 처리 메소드의
+	반환값(ViewName)을 제공받아 응답 가능한 JSP 문서로 변환하여 반환하는 객체 -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+		<beans:property name="order" value="3"/>
+	</beans:bean>
+
+	<!-- UrlBasedViewResolver 클래스를 Spring Bean으로 등록 -->
+	<!-- UrlBasedViewResolver 객체 : 클라이언트 요청에 의해 호출되는 요청 처리 메소드의
+	반환값(ViewName)을 제공받아 Spring Framework가 제공하는 ViewResolver 객체가 아닌
+	외부의 뷰프로그램의 이용하여 응답 처리하는 객체 -->
+	<beans:bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<!-- viewClass 필드에 뷰프로그램을 구현한 클래스를 인젝션 처리 -->
+		<beans:property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView"/>
+		<!-- order 필드에 ViewResolver 객체의 우선순위 관련 정수값을 인젝션 처리  -->
+		<!-- => 필드의 저장된 정수값이 적을수록 우선순위가 높게 설정 -->
+		<beans:property name="order" value="2"/>
+	</beans:bean>
+
+	<!-- TilesConfigurer 클래스를 Spring Bean으로 등록 -->
+	<!-- TilesConfigurer 객체 : TilesView 프로그램의 응답관련 정보를 저장한 Tiles 환경설정파일을 제공하기 위한 객체 -->
+	<beans:bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<!-- definitions 필드에 List 객체를 생성하여 인젝션 처리 -->
+		<!-- => List 객체의 요소로 Tiles 환경설정파일(XML)의 경로를 추가하여 제공 -->
+		<beans:property name="definitions">
+			<beans:list>
+				<beans:value>/WEB-INF/spring/appServlet/tiles.xml</beans:value>
+			</beans:list>
+		</beans:property>
+	</beans:bean>
+
+	<!-- component-scan : 스프링 컨테이너가 스프링 어노테이션을 검색하여 처리하기 위한 엘리먼트 -->
+	<!-- base-package 속성 : 스프링 어노테이션을 검색하기 위해 어노테이션을 사용한 클래스의 패키지를 속성값으로 설정 -->	
+	<context:component-scan base-package="xyz.itwill.controller" />
+</beans:beans>

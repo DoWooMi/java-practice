@@ -1,0 +1,15 @@
+package xyz.itwill.group4;
+
+public class OrdersDTO {
+	private int oONum;	
+	private int oStatus;	
+	private String oDate;
+	private String oComment;	
+	private String oHewonId;	
+	private String oQuantity;	
+	private int oPNum;	
+	private String oAddress1;	
+	private String oAddress2;	
+	private String oZipCode;	
+	private String oPhone;
+}

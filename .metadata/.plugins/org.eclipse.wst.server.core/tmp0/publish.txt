@@ -1,0 +1,15 @@
+#Tomcat publish data
+#Thu Mar 16 16:52:44 KST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ITWILL\\.m2\\repository\\org\\springframework\\spring-web\\5.3.25\\spring-web-5.3.25.jar=C\:\\java\\apache-tomcat-9.0.68\\webapps\\space\\WEB-INF\\lib\\spring-web-5.3.25.jar
+org.eclipse.jst.jee.server\:ajax=C\:\\java\\apache-tomcat-9.0.68\\webapps\\ajax
+org.eclipse.jst.jee.server\:apractice=C\:\\java\\apache-tomcat-9.0.68\\webapps\\apractice
+org.eclipse.jst.jee.server\:final=C\:\\java\\apache-tomcat-9.0.68\\webapps\\final
+org.eclipse.jst.jee.server\:jsp=C\:\\java\\apache-tomcat-9.0.68\\webapps\\jsp
+org.eclipse.jst.jee.server\:mvc=C\:\\java\\apache-tomcat-9.0.68\\webapps\\mvc
+org.eclipse.jst.jee.server\:mybatis=C\:\\java\\apache-tomcat-9.0.68\\webapps\\mybatis
+org.eclipse.jst.jee.server\:project4=C\:\\java\\apache-tomcat-9.0.68\\webapps\\project4
+org.eclipse.jst.jee.server\:servlet=C\:\\java\\apache-tomcat-9.0.68\\webapps\\servlet
+org.eclipse.jst.jee.server\:space=C\:\\java\\apache-tomcat-9.0.68\\webapps\\space
+org.eclipse.jst.jee.server\:spring=C\:\\java\\apache-tomcat-9.0.68\\webapps\\spring
+org.eclipse.jst.jee.server\:test2=C\:\\java\\apache-tomcat-9.0.68\\webapps\\test2
+org.eclipse.jst.jee.server\:web2=C\:\\java\\apache-tomcat-9.0.68\\webapps\\web2

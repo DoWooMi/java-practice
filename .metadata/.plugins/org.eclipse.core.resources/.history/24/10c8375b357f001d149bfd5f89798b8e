@@ -1,0 +1,8 @@
+package xyz.itwill.dto;
+
+public class CartDTO {
+	private int cNum;	
+	private String cHewonId;	
+	private int cPNum;	
+	private int cQuantity;	
+}

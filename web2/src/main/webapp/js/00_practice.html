@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript</title>
+</head>
+<body>
+	<button type="button" id="btn">다음(Daum) 이동</button>
+	<hr>
+	<!-- a 태그는 기본이벤트로 이벤트 처리 함수 등록 없이 자동 실행 -->
+	<a href="https://www.naver.com" id="naver"><button type="button">네이버</button></a>
+	
+	<script type="text/javascript">
+	document.getElementById("btn").onclick=function() {
+		location.href="https://www.daum.net";
+		event.preventDefault();
+	}
+	
+	document.getElementById("naver").onclick=function() {
+		//event.preventDefault() : 이벤트 발생에 의해 실행되는 명령을 중지하는 메소드
+		//event.preventDefault();
+	}
+	</script>
+</body>
+</html>

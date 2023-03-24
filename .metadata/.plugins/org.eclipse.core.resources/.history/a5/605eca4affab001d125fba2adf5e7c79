@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Culead - Multipurpose Landing Page Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="HTML5 Landing Template" />
+        <meta name="keywords" content="Landing, Multipurpose, Application, Clean, Saas, Dashboard, Bootstrap4" />
+        <meta content="Uniquecrewdesign" name="author" />
+        <meta content="uniquecrewdesign@gmail.com" name="Email" />
+        <meta content="http://shreethemes.in/" name="Website" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="${pageContext.request.contextPath }/images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="${pageContext.request.contextPath }/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="${pageContext.request.contextPath }/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.11/css/unicons.css">
+        <!-- Main css File -->
+        <link href="${pageContext.request.contextPath }/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="images/layer-group.svg" height="80" class="d-block mx-auto" alt="">
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <div class="media align-items-center">
+                        <span class="text-primary"><img src="images/layer-group.svg" class="logo-icon mr-1" alt=""></span>
+                        <div>
+                            <img src="images/logo.png" class="l-dark" height="16" alt="">
+                            <img src="images/logo-light.png" class="l-light" height="16" alt="">
+                        </div>
+                    </div>
+                </a>
+                <!-- Logo container --> 
+                <div class="buy-button">
+                    <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" data-target="#LoginForm">Signup</a>
+                </div><!--end login button-->
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light">
+                        <li class="has-submenu">
+                            <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index-two.html">Home Two</a></li>
+                                <li><a href="index-three.html">Home Three</a></li>
+                                <li><a href="index-four.html">Home Four</a></li>
+                                <li><a href="index-five.html">Home Five</a></li>
+                                <li><a href="index-six.html">Home Six</a></li>
+                                <li><a href="index-seven.html">Home Seven</a></li>
+                                <li><a href="index-eight.html">Home Eight</a></li>
+                                <li><a href="index-nine.html">Home Nine</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-about.html">About us</a></li>
+                                <li><a href="page-services.html">Services</a></li>
+                                <li><a href="page-pricing.html">Pricing</a></li>
+                                <li><a href="page-benefits.html">Benefits</a></li>
+                                <li><a href="page-team.html">Team</a></li>
+                                <li><a href="page-faqs.html">FAQs</a></li>
+                                <li><a href="page-terms.html">Terms Policy</a></li>
+                                <li class="has-submenu">
+                                    <a href="javascript:void(0)">Auth Pages</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="page-login.html">Login</a></li>
+                                        <li><a href="page-signup.html">Signup</a></li>
+                                        <li><a href="page-reset-password.html">Reset Password</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="page-blank.html">Blank Page</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="javascript:void(0)">Blog</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="page-blog.html">Blog</a></li>
+                                <li><a href="page-blog-sidebar.html">Blog - Sidebar</a></li>
+                                <li><a href="page-blog-detail.html">Single Blog</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="javascript:void(0)">Events</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="event-over.html">Overview</a></li>
+                                <li><a href="event-list.html">Event List</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="page-contact.html">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                    <div class="buy-menu-btn d-none">
+                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="modal" data-target="#LoginForm">Signup</a>
+                    </div><!--end login button-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half d-table w-100" style="background: url('images/home/pages.jpg') center center;">
+            <div class="bg-overlay" style="background-image: url('images/bg.png')"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading">
+                            <h3 class="text-white">Frequently asked questions</h3>
+                            <div class="breadcrumb-position">
+                                <nav aria-label="breadcrumb" class="d-inline-block">
+                                    <ul class="breadcrumb bg-white rounded shadow-md mb-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Culead</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Page</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+        
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 col-12">
+                        <div class="faq-content">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="card border rounded mb-2">
+                                    <a data-toggle="collapse" href="#collapsefour" class="faq position-relative" aria-expanded="true" aria-controls="collapsefour">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingfour">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> Can I come take a tour anytime? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapsefour" class="collapse show" aria-labelledby="headingfour" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border rounded mb-2">
+                                    <a data-toggle="collapse" href="#collapsefive" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsefive">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingfive">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> Do you have student or small company discounts? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border rounded mb-2">
+                                    <a data-toggle="collapse" href="#collapsesix" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsesix">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingsix">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> Can I cancel anytime or is there a lock-in period? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border rounded mb-2">
+                                    <a data-toggle="collapse" href="#collapseone" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseone">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingone">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> What is the difference between your room types? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapseone" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border rounded mb-2">
+                                    <a data-toggle="collapse" href="#collapsetwo" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsetwo">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingtwo">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> Is the laundry facility free? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapsetwo" class="collapse" aria-labelledby="headingtwo" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card border rounded mb-0">
+                                    <a data-toggle="collapse" href="#collapsethree" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsethree">
+                                        <div class="card-header border-0 bg-light p-3 pr-5" id="headingthree">
+                                            <div class="media">
+                                                <h6 class="title mb-0"> How are you handling safety of the offices? </h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionExample2">
+                                        <div class="card-body">
+                                            <p class="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end accordion-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="media feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-phone"></i>
+                            </div>
+                            <div class="content ml-4">
+                                <h5>Phone</h5>
+                                <p class="text-muted">Start working with Landrick that can provide everything</p>
+                                <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 mt-sm-0">
+                        <div class="media feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <div class="content ml-4">
+                                <h5>Email</h5>
+                                <p class="text-muted">Start working with Landrick that can provide everything</p>
+                                <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 mt-lg-0">
+                        <div class="media feature">
+                            <div class="icons m-0 rounded-md h2 text-primary text-center px-3">
+                                <i class="uil uil-map-marker"></i>
+                            </div>
+                            <div class="content ml-4">
+                                <h5>Location</h5>
+                                <p class="text-muted mb-0">C/54 Northwest Freeway, Suite 558, <br>Houston, USA 485</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+
+        <!-- Footer Start -->
+        <footer class="footer bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                        <a href="#" class="logo-footer">
+                            <div class="media align-items-center">
+                                <span class="text-primary"><img src="images/layer-group.svg" class="logo-icon mr-1" alt=""></span>
+                                <img src="images/logo-light.png" height="16" alt="">
+                            </div>
+                        </a>
+                        <p class="mt-4">This is just a simple text made for this unique and awesome template, you can replace it with any text..</p>
+                        <ul class="list-unstyled social-icon social mb-0 mt-4">
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                        </ul><!--end icon-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-12">
+                        <div class="row">
+                            <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                <h5 class="text-light footer-head">Company</h5>
+                                <ul class="list-unstyled footer-list mt-4">
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> About us</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Services</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Pricing</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Project</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Blog</a></li>
+                                </ul>
+                            </div><!--end col-->
+
+                            <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                <h5 class="text-light footer-head">Support</h5>
+                                <ul class="list-unstyled footer-list mt-4">
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Help Desk</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Live Chat</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Knowledge</a></li>
+                                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Messaging</a></li>
+                                </ul>
+                            </div><!--end col-->
+
+                            <div class="col-md-4 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                                <h5 class="text-light footer-head">Contacts</h5>
+                                <ul class="list-unstyled footer-list mt-4">
+                                    <li><i data-feather="map-pin" class="fea icon-sm mr-2"></i><a href="#" class="text-foot">Londan, England</a></li>
+                                    <li><i data-feather="mail" class="fea icon-sm mr-2"></i><a href="mailto:contact@example.com" class="text-foot">test@domain.com</a></li>
+                                    <li><i data-feather="phone" class="fea icon-sm mr-2"></i><a href="tel:+152534-468-854" class="text-foot">+(12) 1254-5487</a></li>
+                                </ul>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <footer class="footer bg-footer footer-bar">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <p class="mb-0">© 2020 Culead. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://Uniquecrew.in" target="_blank" class="text-reset">Uniquecrew</a>.</p>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Back to top -->
+        <a href="#" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Back to top -->
+
+        <!-- Login Modal Content Start -->
+        <div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                <div class="modal-content rounded shadow border-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Register Now </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Your Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control"  name="email" required="" placeholder="Your Email :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control"  required="" placeholder="Password :">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">I Accept <a href="#" class="text-primary">Terms And Condition</a></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary btn-block">Create Account</button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small> <a href="page-login.html" class="text-dark font-weight-bold">Sign in</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login Modal Content End -->
+        
+        <!-- javascript -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <!-- Icon -->
+        <script src="js/feather.min.js"></script>
+        <script src="https://unicons.iconscout.com/release/v2.1.11/script/monochrome/bundle.js"></script>
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
